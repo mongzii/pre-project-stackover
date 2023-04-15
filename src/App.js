@@ -1,24 +1,24 @@
-import logo from "./logo.svg";
 import "./App.css";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
+import NavBar from "./components/NavBar";
+import Questions from "./pages/Questions";
+import Tags from "./pages/Tags";
+import Users from "./pages/Users";
+import Companies from "./pages/Companies";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          된건가
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <NavBar />
+      <Routes>
+        <Route path="/" element={<div></div>} />
+        <Route path="/questions" element={<Questions />} />
+        <Route path="/tags" element={<Tags />} />
+        <Route path="/users" element={<Users />} />
+        <Route path="/companies" element={<Companies />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
