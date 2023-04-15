@@ -1,6 +1,18 @@
 import styled from "styled-components";
 
-export const StyledNavBar = styled.div``;
+export const StyledNavBar = styled.div`
+  display: flex;
+  flex-direction: row;
+  
+
+  >  * {
+    list-style: none;
+    cursor: pointer;
+    
+    padding: 10px;
+  }
+`;
+
 
 export const StyledNavList = styled.ul`
   display: flex;
