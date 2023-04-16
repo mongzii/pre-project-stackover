@@ -62,8 +62,8 @@ const FootBar = () => {
             <ul>Instagram</ul>
             </FootMenu5>
             </BigMenu>
-            {/* <div>Site design / logo 2023 Stack Exchange Inc; user contributions</div>
-            <div>licensed under CC BY-SA. rev 2023.4.14.43390</div> */}
+            <div>Site design / logo 2023 Stack Exchange Inc; user contributions</div>
+            <div>licensed under CC BY-SA. rev 2023.4.14.43390</div>
              {/* </StyledFootBar> */}
              </StyledFootBar>
         </div>
