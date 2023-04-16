@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const StyledNavBar = styled.div`
   display: flex;
   flex-direction: row;
+  border : 3px solid orange;
   
 
   >  * {

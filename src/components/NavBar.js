@@ -16,8 +16,8 @@ const NavBar = () => {
           type="text"
           placeholder="search"
         ></input>
-        <button>Log in</button>
-        <button>Sign up</button>
+        <button onClick={() => navigate("/login")}>Log in</button>
+        <button onClick={() => navigate("/signup")}>Sign up</button>
       </StyledNavBar>
       <StyledNavList>
         <li onClick={() => navigate("/questions")}>Questions</li>

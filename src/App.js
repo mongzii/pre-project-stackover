@@ -8,6 +8,8 @@ import Questions from "./pages/Questions";
 import Tags from "./pages/Tags";
 import Users from "./pages/Users";
 import Companies from "./pages/Companies";
+import LogIn from "./pages/LogIn";
+import SingUP from "./pages/SignUp";
 
 
 function App() {
@@ -21,6 +23,8 @@ function App() {
         <Route path="/tags" element={<Tags />} />
         <Route path="/users" element={<Users />} />
         <Route path="/companies" element={<Companies />} />
+        <Route path="/login" element={<LogIn />} />
+        <Route path="/signup" element={<SingUP />} />
       </Routes>
       <FootBar />
     </BrowserRouter>
